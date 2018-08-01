@@ -5,7 +5,7 @@ It's a very simple script to list all IPv4 networks assigned to an AS. You don't
 
 simply run:
 
-`SOURCE=`pwd`/source.txt DESTINATION=/tmp ./run.sh`
+`SOURCE=/tmp/source.txt DESTINATION=/tmp ./run.sh`
 
 or through docker
 
