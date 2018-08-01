@@ -5,11 +5,11 @@ It's a very simple script to list all IPv4 networks assigned to an AS. You don't
 
 simply run:
 
-`SOURCE=``pwd``/source.txt DESTINATION=/tmp ./run.sh`
+`SOURCE=`pwd`/source.txt DESTINATION=/tmp ./run.sh`
 
 or through docker
 
-- `docker run -ti --rm -v /tmp/source.txt:/source/source.txt:ro -v /tmp:/destination shellmaster/as_to_network_ranges_and_f5`
+`docker run -ti --rm -v /tmp/source.txt:/source/source.txt:ro -v /tmp:/destination shellmaster/as_to_network_ranges_and_f5`
 
 you can pass extra variables:
 
